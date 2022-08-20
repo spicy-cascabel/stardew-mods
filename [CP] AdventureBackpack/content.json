@@ -1,0 +1,106 @@
+{
+    "Format": "1.27.0",
+    "Changes": [{
+            "Action": "EditMap",
+            "Target": "Maps/AdventureGuild",
+            "FromFile": "assets/AdventureGuild.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 6,
+                "Y": 10,
+                "Width": 1,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 6,
+                "Y": 10,
+                "Width": 1,
+                "Height": 3
+            },
+        }, {
+            "Action": "EditMap",
+            "Target": "Maps/AdventureGuild",
+            "FromFile": "assets/AdventureGuild_pastoral.tmx",
+            "PatchMode": "Overlay",
+            "FromArea": {
+                "X": 6,
+                "Y": 10,
+                "Width": 1,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 6,
+                "Y": 10,
+                "Width": 1,
+                "Height": 3
+            },
+			"With": {
+				"HasMod": "grapeponta.VibrantPastoralRecolor"
+			},
+        }, {
+            "Action": "EditMap",
+            "Target": "Maps/AdventureGuild",
+            "MapTiles": [{
+                    "Position": {
+                        "X": 6,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "BuyBackpack"
+                    }
+                }
+            ]
+        }, {
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [{
+                    "Position": {
+                        "X": 7,
+                        "Y": 18
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Dialogue There's something suspicious about this adventuring backpack..."
+                    }
+                }
+            ]
+        }, {
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/pierre_backpacks.png",
+            "PatchMode": "Overlay",
+            "ToArea": {
+                "X": 368,
+                "Y": 483,
+                "Width": 32,
+                "Height": 28
+            },
+        }, {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/backpacks.png",
+            "ToArea": {
+                "X": 255,
+                "Y": 1436,
+                "Width": 24,
+                "Height": 14
+            },
+        }, {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "SeedShop_BuyBackpack_Question24"],
+                    "Value": "Sold here only! If you see this backpack elsewhere, it's a knockoff - don't fall for it!",
+                    "Delimiter": " -- ",
+                }, {
+                    "Operation": "Append",
+                    "Target": ["Entries", "SeedShop_BuyBackpack_Question36"],
+                    "Value": "Sold here only! If you see this backpack elsewhere, it's a knockoff - don't fall for it!",
+                    "Delimiter": " -- ",
+                },
+            ]
+        },
+    ]
+}

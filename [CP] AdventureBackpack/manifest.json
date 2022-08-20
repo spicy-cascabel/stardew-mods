@@ -1,0 +1,11 @@
+{
+    "Name": "AdventureBackpack",
+    "Author": "Cascabel",
+    "Version": "1.0.1",
+    "Description": "Moves backpack purchasing to the Adventurer's Guild.",
+    "UniqueID": "Cascabel.AdventureBackpack",
+    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
