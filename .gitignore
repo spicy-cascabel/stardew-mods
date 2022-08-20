@@ -1,0 +1,7 @@
+# ignore packaged mods
+*.zip
+# ignore mods by default
+/*/
+# explicitly track owned mods
+# e.g.:
+# !/Mod\ Name/
