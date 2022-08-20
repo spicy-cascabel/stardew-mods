@@ -1,0 +1,11 @@
+{
+    "Name": "Anonymous Multiplayer Joins",
+    "Author": "Cascabel",
+    "Version": "1.0.0",
+    "Description": "Makes multiplayer join announcements anonymous (avoids deadnaming).",
+    "UniqueID": "Cascabel.AnonymousMultiplayerJoins",
+    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
